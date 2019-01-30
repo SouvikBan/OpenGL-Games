@@ -1,13 +1,13 @@
 #include "main.h"
 
-#ifndef BALL_H
-#define BALL_H
+#ifndef WALLDESIGN_H
+#define WALLDESIGN_H
 
 
-class Ball {
+class WallDesign {
 public:
-    Ball() {}
-    Ball(float x, float y, color_t color);
+    WallDesign() {}
+    WallDesign(float x, float y, color_t color);
     glm::vec3 position;
     float rotation;
     void draw(glm::mat4 VP);
@@ -18,4 +18,4 @@ private:
     VAO *object;
 };
 
-#endif // BALL_H
+#endif // WALLDESIGN_H

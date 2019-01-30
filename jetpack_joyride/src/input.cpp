@@ -43,6 +43,8 @@ void keyboard(GLFWwindow *window, int key, int scancode, int action, int mods) {
         case GLFW_KEY_ESCAPE:
             quit(window);
             break;
+        // case GLFW_KEY_A:
+        //     break;
         default:
             break;
         }
@@ -83,5 +85,6 @@ void mouseButton(GLFWwindow *window, int button, int action, int mods) {
 }
 
 void scroll_callback(GLFWwindow *window, double xoffset, double yoffset) {
-    // Do something
+    screen_zoom += 0.01*yoffset;
+    reset_screen();
 }

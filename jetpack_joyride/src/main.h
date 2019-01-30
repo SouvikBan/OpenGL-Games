@@ -79,7 +79,24 @@ void reset_screen();
 // ---- Colors ----
 extern const color_t COLOR_RED;
 extern const color_t COLOR_GREEN;
-extern const color_t COLOR_BLACK;
+extern const color_t COLOR_PLATFORM;
 extern const color_t COLOR_BACKGROUND;
+extern const color_t COLOR_PLAYER;
+extern const color_t COLOR_WALL;
+extern const color_t COLOR_WALLDESIGN;
+extern const color_t COLOR_COINS;
+extern const color_t COLOR_SKIN;
+extern const color_t COLOR_JETPACK;
+extern const color_t COLOR_FUEL;
+extern const color_t COLOR_ENEMY1_FIRE;
+extern const color_t COLOR_ENEMY1_OBJECT;
+extern const color_t COLOR_ENEMY2_FIRE;
+extern const color_t COLOR_ENEMY2_OBJECT;
+extern const color_t COLOR_BALLOON;
+extern const color_t COLOR_ENEMY3;
+extern const color_t COLOR_MAGNET;
+extern const color_t COLOR_RING;
+extern const color_t COLOR_HEAD;
+extern const color_t COLOR_DRAGON;
 
 #endif

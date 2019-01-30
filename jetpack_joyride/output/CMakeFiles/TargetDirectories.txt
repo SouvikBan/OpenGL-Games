@@ -1,0 +1,3 @@
+/home/secaccount/Graphics/OpenGL-Games/Jetpack Joyride/build/CMakeFiles/edit_cache.dir
+/home/secaccount/Graphics/OpenGL-Games/Jetpack Joyride/build/CMakeFiles/rebuild_cache.dir
+/home/secaccount/Graphics/OpenGL-Games/Jetpack Joyride/build/CMakeFiles/graphics_asgn1.dir
