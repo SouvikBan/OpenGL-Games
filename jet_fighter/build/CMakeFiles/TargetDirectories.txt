@@ -1,0 +1,3 @@
+/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles/edit_cache.dir
+/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles/rebuild_cache.dir
+/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles/graphics_asgn1.dir
