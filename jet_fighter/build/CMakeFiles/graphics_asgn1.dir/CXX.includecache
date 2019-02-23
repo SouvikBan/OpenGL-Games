@@ -6,13 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/souvban/OpenGL-Games/jet_fighter/src/ball.cpp
-ball.h
-/home/souvban/OpenGL-Games/jet_fighter/src/ball.h
+/home/souvban/OpenGL-Games/jet_fighter/src/bomb.cpp
+
+/home/souvban/OpenGL-Games/jet_fighter/src/bomb.h
+
+/home/souvban/OpenGL-Games/jet_fighter/src/cannon.cpp
+cannon.h
+/home/souvban/OpenGL-Games/jet_fighter/src/cannon.h
 main.h
 /home/souvban/OpenGL-Games/jet_fighter/src/main.h
 
-/home/souvban/OpenGL-Games/jet_fighter/src/ball.h
+/home/souvban/OpenGL-Games/jet_fighter/src/cannon.h
 main.h
 /home/souvban/OpenGL-Games/jet_fighter/src/main.h
 
@@ -27,6 +31,20 @@ main.h
 /home/souvban/OpenGL-Games/jet_fighter/src/main.h
 
 /home/souvban/OpenGL-Games/jet_fighter/src/fighter.h
+main.h
+/home/souvban/OpenGL-Games/jet_fighter/src/main.h
+
+/home/souvban/OpenGL-Games/jet_fighter/src/fire.h
+main.h
+/home/souvban/OpenGL-Games/jet_fighter/src/main.h
+
+/home/souvban/OpenGL-Games/jet_fighter/src/fuel.cpp
+fuel.h
+/home/souvban/OpenGL-Games/jet_fighter/src/fuel.h
+main.h
+/home/souvban/OpenGL-Games/jet_fighter/src/main.h
+
+/home/souvban/OpenGL-Games/jet_fighter/src/fuel.h
 main.h
 /home/souvban/OpenGL-Games/jet_fighter/src/main.h
 
@@ -52,7 +70,19 @@ glm/gtc/matrix_transform.hpp
 main.h
 /home/souvban/OpenGL-Games/jet_fighter/src/main.h
 
+/home/souvban/OpenGL-Games/jet_fighter/src/land.cpp
+land.h
+/home/souvban/OpenGL-Games/jet_fighter/src/land.h
+main.h
+/home/souvban/OpenGL-Games/jet_fighter/src/main.h
+
+/home/souvban/OpenGL-Games/jet_fighter/src/land.h
+main.h
+/home/souvban/OpenGL-Games/jet_fighter/src/main.h
+
 /home/souvban/OpenGL-Games/jet_fighter/src/main.cpp
+vector
+-
 main.h
 /home/souvban/OpenGL-Games/jet_fighter/src/main.h
 timer.h
@@ -61,6 +91,24 @@ fighter.h
 /home/souvban/OpenGL-Games/jet_fighter/src/fighter.h
 sea.h
 /home/souvban/OpenGL-Games/jet_fighter/src/sea.h
+ring.h
+/home/souvban/OpenGL-Games/jet_fighter/src/ring.h
+missile.h
+/home/souvban/OpenGL-Games/jet_fighter/src/missile.h
+land.h
+/home/souvban/OpenGL-Games/jet_fighter/src/land.h
+cannon.h
+/home/souvban/OpenGL-Games/jet_fighter/src/cannon.h
+volcano.h
+/home/souvban/OpenGL-Games/jet_fighter/src/volcano.h
+fuel.h
+/home/souvban/OpenGL-Games/jet_fighter/src/fuel.h
+fire.h
+/home/souvban/OpenGL-Games/jet_fighter/src/fire.h
+bomb.h
+/home/souvban/OpenGL-Games/jet_fighter/src/bomb.h
+parachute.h
+/home/souvban/OpenGL-Games/jet_fighter/src/parachute.h
 
 /home/souvban/OpenGL-Games/jet_fighter/src/main.h
 iostream
@@ -81,6 +129,16 @@ glm/gtx/transform.hpp
 -
 glm/gtc/matrix_transform.hpp
 -
+
+/home/souvban/OpenGL-Games/jet_fighter/src/missile.cpp
+missile.h
+/home/souvban/OpenGL-Games/jet_fighter/src/missile.h
+main.h
+/home/souvban/OpenGL-Games/jet_fighter/src/main.h
+
+/home/souvban/OpenGL-Games/jet_fighter/src/missile.h
+main.h
+/home/souvban/OpenGL-Games/jet_fighter/src/main.h
 
 /home/souvban/OpenGL-Games/jet_fighter/src/nonedit.cpp
 iostream
@@ -132,6 +190,26 @@ glm/gtc/matrix_transform.hpp
 main.h
 /home/souvban/OpenGL-Games/jet_fighter/src/main.h
 
+/home/souvban/OpenGL-Games/jet_fighter/src/parachute.cpp
+parachute.h
+/home/souvban/OpenGL-Games/jet_fighter/src/parachute.h
+main.h
+/home/souvban/OpenGL-Games/jet_fighter/src/main.h
+
+/home/souvban/OpenGL-Games/jet_fighter/src/parachute.h
+main.h
+/home/souvban/OpenGL-Games/jet_fighter/src/main.h
+
+/home/souvban/OpenGL-Games/jet_fighter/src/ring.cpp
+ring.h
+/home/souvban/OpenGL-Games/jet_fighter/src/ring.h
+main.h
+/home/souvban/OpenGL-Games/jet_fighter/src/main.h
+
+/home/souvban/OpenGL-Games/jet_fighter/src/ring.h
+main.h
+/home/souvban/OpenGL-Games/jet_fighter/src/main.h
+
 /home/souvban/OpenGL-Games/jet_fighter/src/sea.cpp
 sea.h
 /home/souvban/OpenGL-Games/jet_fighter/src/sea.h
@@ -149,4 +227,14 @@ GLFW/glfw3.h
 -
 
 /home/souvban/OpenGL-Games/jet_fighter/src/timer.h
+
+/home/souvban/OpenGL-Games/jet_fighter/src/volcano.cpp
+volcano.h
+/home/souvban/OpenGL-Games/jet_fighter/src/volcano.h
+main.h
+/home/souvban/OpenGL-Games/jet_fighter/src/main.h
+
+/home/souvban/OpenGL-Games/jet_fighter/src/volcano.h
+main.h
+/home/souvban/OpenGL-Games/jet_fighter/src/main.h
 
