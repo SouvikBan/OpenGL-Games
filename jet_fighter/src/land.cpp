@@ -1,28 +1,42 @@
-#include "sea.h"
+#include "land.h"
 #include "main.h"
 
-Sea::Sea(float x, float y, float z) {
+Land::Land(float x, float y, float z) {
     this->position = glm::vec3(x, y, z);
     this->rotation = 0;
     speed = 1;
-    
-    static const GLfloat vertex_buffer_data[] = {
-        0.0f, 0.0f, 0.0f,
-        10000.0f, 0.0f, 0.0f,
-        10000.0f, 0.0f, 10000.0f,
-        10000.0f, 0.0f, 10000.0f,
-        0.0f, 0.0f, 10000.0f,
-        0.0f, 0.0f, 0.0f 
-    };
+    int n1 = 6;
+    GLfloat vertex_buffer_data[9*n1],colour_buffer_data[9*n1];
+    for(int i=0;i<n1;i++)
+    {
+        vertex_buffer_data[9*i]=(25*cos(i*2*3.14159/n1));
+        colour_buffer_data[9*i]=14.0f/256.0f;
+        
+        vertex_buffer_data[9*i+1]=0.0;
+        colour_buffer_data[9*i+1]=102.0f/256.0f;
+        
+        vertex_buffer_data[9*i+2]=(25*sin(i*2*3.14159/n1));
+        colour_buffer_data[9*i+2]=85.0f/256.0f;
+        
+        vertex_buffer_data[9*i+3]=(25*cos((i+1)*2*3.14159/n1));
+        colour_buffer_data[9*i+3]=14.0f/256.0f;
+        
+        vertex_buffer_data[9*i+4]=0.0;
+        colour_buffer_data[9*i+4]=102.0f/256.0f;
+        
+        vertex_buffer_data[9*i+5]=(25*sin((i+1)*2*3.14159/n1));
+        colour_buffer_data[9*i+5]=85.0f/256.0f;
+        
+        vertex_buffer_data[9*i+6]=0.0;
+        colour_buffer_data[9*i+6]=14.0f/256.0f;
+        
+        vertex_buffer_data[9*i+7]=0.0;
+        colour_buffer_data[9*i+7]=102.0f/256.0f;
+        
+        vertex_buffer_data[9*i+8]=0.0;
+        colour_buffer_data[9*i+8]=85.0f/256.0f;
 
-    static const GLfloat colour_buffer_data[] = {
-        32.0f/256.0f, 178.0f/256.0f, 170.0f/256.0f,
-        32.0f/256.0f, 178.0f/256.0f, 170.0f/256.0f,
-        32.0f/256.0f, 178.0f/256.0f, 170.0f/256.0f,
-        32.0f/256.0f, 178.0f/256.0f, 170.0f/256.0f,
-        32.0f/256.0f, 178.0f/256.0f, 170.0f/256.0f,
-        32.0f/256.0f, 178.0f/256.0f, 170.0f/256.0f,
-    };
+    }
 
     // GLuint vertexbuffer;
 	glGenBuffers(1, &this->vertexbuffer);
@@ -36,7 +50,7 @@ Sea::Sea(float x, float y, float z) {
 
 }
 
-void Sea::draw(glm::mat4 VP) {
+void Land::draw(glm::mat4 VP) {
     Matrices.model = glm::mat4(1.0f);
     glm::mat4 translate = glm::translate (this->position);  
     glm::mat4 rotate    = glm::rotate((float) (this->rotation * M_PI / 180.0f), glm::vec3(1, 0, 0));
@@ -71,18 +85,18 @@ void Sea::draw(glm::mat4 VP) {
         (void*)0                          // array buffer offset
     );
 
-    glDrawArrays(GL_TRIANGLES, 0, 18 );
+    glDrawArrays(GL_TRIANGLES, 0, 72 );
 
     glDisableVertexAttribArray(0);
     glDisableVertexAttribArray(1);
     glDeleteVertexArrays(1, &vao);
 }
 
-void Sea::set_position(float x, float y, float z) {
+void Land::set_position(float x, float y, float z) {
     this->position = glm::vec3(x, y, z);
 }
 
-void Sea::tick() {
+void Land::tick() {
     this->rotation += speed;
     // this->position.x -= speed;
     // this->position.y -= speed;

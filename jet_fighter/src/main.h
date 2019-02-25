@@ -33,6 +33,7 @@ void keyboard(GLFWwindow *window, int key, int scancode, int action, int mods);
 void keyboardChar(GLFWwindow *window, unsigned int key);
 void mouseButton(GLFWwindow *window, int button, int action, int mods);
 void scroll_callback(GLFWwindow *window, double xoffset, double yoffset);
+void mouseover_callback(GLFWwindow *window, double xoffset, double yoffset);
 
 // other_handlers.cpp
 void error_callback(int error, const char *description);
@@ -58,7 +59,7 @@ struct GLMatrices {
     GLuint    MatrixID;
 };
 
-extern GLMatrices Matrices;
+extern GLMatrices Matrices,Dash;
 
 // ---- Logic ----
 
@@ -67,13 +68,13 @@ enum direction_t { DIR_UP, DIR_RIGHT, DIR_DOWN, DIR_LEFT };
 struct bounding_box_t {
     float x;
     float y;
-    float width;
-    float height;
+    float z;
+    float radius;
 };
 
 bool detect_collision(bounding_box_t a, bounding_box_t b);
 
-extern float screen_zoom, screen_center_x, screen_center_y;
+extern float screen_zoom, screen_center_x, screen_center_y,theta,phi;
 void reset_screen();
 
 // ---- Colors ----
@@ -89,5 +90,7 @@ bool loadOBJ(
     std::vector < glm::vec2 > & out_uvs,
     std::vector < glm::vec3 > & out_normals
 );
+
+void bomb_generate(int mouse);
 
 #endif

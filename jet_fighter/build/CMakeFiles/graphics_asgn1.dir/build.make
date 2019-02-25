@@ -105,9 +105,33 @@ CMakeFiles/graphics_asgn1.dir/src/objloader.cpp.o.provides: CMakeFiles/graphics_
 CMakeFiles/graphics_asgn1.dir/src/objloader.cpp.o.provides.build: CMakeFiles/graphics_asgn1.dir/src/objloader.cpp.o
 
 
+CMakeFiles/graphics_asgn1.dir/src/fire.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
+CMakeFiles/graphics_asgn1.dir/src/fire.cpp.o: ../src/fire.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/fire.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/fire.cpp.o -c /home/souvban/OpenGL-Games/jet_fighter/src/fire.cpp
+
+CMakeFiles/graphics_asgn1.dir/src/fire.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics_asgn1.dir/src/fire.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/souvban/OpenGL-Games/jet_fighter/src/fire.cpp > CMakeFiles/graphics_asgn1.dir/src/fire.cpp.i
+
+CMakeFiles/graphics_asgn1.dir/src/fire.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics_asgn1.dir/src/fire.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/souvban/OpenGL-Games/jet_fighter/src/fire.cpp -o CMakeFiles/graphics_asgn1.dir/src/fire.cpp.s
+
+CMakeFiles/graphics_asgn1.dir/src/fire.cpp.o.requires:
+
+.PHONY : CMakeFiles/graphics_asgn1.dir/src/fire.cpp.o.requires
+
+CMakeFiles/graphics_asgn1.dir/src/fire.cpp.o.provides: CMakeFiles/graphics_asgn1.dir/src/fire.cpp.o.requires
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/fire.cpp.o.provides.build
+.PHONY : CMakeFiles/graphics_asgn1.dir/src/fire.cpp.o.provides
+
+CMakeFiles/graphics_asgn1.dir/src/fire.cpp.o.provides.build: CMakeFiles/graphics_asgn1.dir/src/fire.cpp.o
+
+
 CMakeFiles/graphics_asgn1.dir/src/bomb.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
 CMakeFiles/graphics_asgn1.dir/src/bomb.cpp.o: ../src/bomb.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/bomb.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/bomb.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/bomb.cpp.o -c /home/souvban/OpenGL-Games/jet_fighter/src/bomb.cpp
 
 CMakeFiles/graphics_asgn1.dir/src/bomb.cpp.i: cmake_force
@@ -131,7 +155,7 @@ CMakeFiles/graphics_asgn1.dir/src/bomb.cpp.o.provides.build: CMakeFiles/graphics
 
 CMakeFiles/graphics_asgn1.dir/src/volcano.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
 CMakeFiles/graphics_asgn1.dir/src/volcano.cpp.o: ../src/volcano.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/volcano.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/volcano.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/volcano.cpp.o -c /home/souvban/OpenGL-Games/jet_fighter/src/volcano.cpp
 
 CMakeFiles/graphics_asgn1.dir/src/volcano.cpp.i: cmake_force
@@ -155,7 +179,7 @@ CMakeFiles/graphics_asgn1.dir/src/volcano.cpp.o.provides.build: CMakeFiles/graph
 
 CMakeFiles/graphics_asgn1.dir/src/input.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
 CMakeFiles/graphics_asgn1.dir/src/input.cpp.o: ../src/input.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/input.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/input.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/input.cpp.o -c /home/souvban/OpenGL-Games/jet_fighter/src/input.cpp
 
 CMakeFiles/graphics_asgn1.dir/src/input.cpp.i: cmake_force
@@ -179,7 +203,7 @@ CMakeFiles/graphics_asgn1.dir/src/input.cpp.o.provides.build: CMakeFiles/graphic
 
 CMakeFiles/graphics_asgn1.dir/src/ring.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
 CMakeFiles/graphics_asgn1.dir/src/ring.cpp.o: ../src/ring.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/ring.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/ring.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/ring.cpp.o -c /home/souvban/OpenGL-Games/jet_fighter/src/ring.cpp
 
 CMakeFiles/graphics_asgn1.dir/src/ring.cpp.i: cmake_force
@@ -203,7 +227,7 @@ CMakeFiles/graphics_asgn1.dir/src/ring.cpp.o.provides.build: CMakeFiles/graphics
 
 CMakeFiles/graphics_asgn1.dir/src/main.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
 CMakeFiles/graphics_asgn1.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/main.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/main.cpp.o -c /home/souvban/OpenGL-Games/jet_fighter/src/main.cpp
 
 CMakeFiles/graphics_asgn1.dir/src/main.cpp.i: cmake_force
@@ -225,9 +249,33 @@ CMakeFiles/graphics_asgn1.dir/src/main.cpp.o.provides: CMakeFiles/graphics_asgn1
 CMakeFiles/graphics_asgn1.dir/src/main.cpp.o.provides.build: CMakeFiles/graphics_asgn1.dir/src/main.cpp.o
 
 
+CMakeFiles/graphics_asgn1.dir/src/sev_seg.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
+CMakeFiles/graphics_asgn1.dir/src/sev_seg.cpp.o: ../src/sev_seg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/sev_seg.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/sev_seg.cpp.o -c /home/souvban/OpenGL-Games/jet_fighter/src/sev_seg.cpp
+
+CMakeFiles/graphics_asgn1.dir/src/sev_seg.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics_asgn1.dir/src/sev_seg.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/souvban/OpenGL-Games/jet_fighter/src/sev_seg.cpp > CMakeFiles/graphics_asgn1.dir/src/sev_seg.cpp.i
+
+CMakeFiles/graphics_asgn1.dir/src/sev_seg.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics_asgn1.dir/src/sev_seg.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/souvban/OpenGL-Games/jet_fighter/src/sev_seg.cpp -o CMakeFiles/graphics_asgn1.dir/src/sev_seg.cpp.s
+
+CMakeFiles/graphics_asgn1.dir/src/sev_seg.cpp.o.requires:
+
+.PHONY : CMakeFiles/graphics_asgn1.dir/src/sev_seg.cpp.o.requires
+
+CMakeFiles/graphics_asgn1.dir/src/sev_seg.cpp.o.provides: CMakeFiles/graphics_asgn1.dir/src/sev_seg.cpp.o.requires
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/sev_seg.cpp.o.provides.build
+.PHONY : CMakeFiles/graphics_asgn1.dir/src/sev_seg.cpp.o.provides
+
+CMakeFiles/graphics_asgn1.dir/src/sev_seg.cpp.o.provides.build: CMakeFiles/graphics_asgn1.dir/src/sev_seg.cpp.o
+
+
 CMakeFiles/graphics_asgn1.dir/src/sea.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
 CMakeFiles/graphics_asgn1.dir/src/sea.cpp.o: ../src/sea.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/sea.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/sea.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/sea.cpp.o -c /home/souvban/OpenGL-Games/jet_fighter/src/sea.cpp
 
 CMakeFiles/graphics_asgn1.dir/src/sea.cpp.i: cmake_force
@@ -251,7 +299,7 @@ CMakeFiles/graphics_asgn1.dir/src/sea.cpp.o.provides.build: CMakeFiles/graphics_
 
 CMakeFiles/graphics_asgn1.dir/src/fuel.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
 CMakeFiles/graphics_asgn1.dir/src/fuel.cpp.o: ../src/fuel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/fuel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/fuel.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/fuel.cpp.o -c /home/souvban/OpenGL-Games/jet_fighter/src/fuel.cpp
 
 CMakeFiles/graphics_asgn1.dir/src/fuel.cpp.i: cmake_force
@@ -275,7 +323,7 @@ CMakeFiles/graphics_asgn1.dir/src/fuel.cpp.o.provides.build: CMakeFiles/graphics
 
 CMakeFiles/graphics_asgn1.dir/src/nonedit.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
 CMakeFiles/graphics_asgn1.dir/src/nonedit.cpp.o: ../src/nonedit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/nonedit.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/nonedit.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/nonedit.cpp.o -c /home/souvban/OpenGL-Games/jet_fighter/src/nonedit.cpp
 
 CMakeFiles/graphics_asgn1.dir/src/nonedit.cpp.i: cmake_force
@@ -299,7 +347,7 @@ CMakeFiles/graphics_asgn1.dir/src/nonedit.cpp.o.provides.build: CMakeFiles/graph
 
 CMakeFiles/graphics_asgn1.dir/src/other_handlers.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
 CMakeFiles/graphics_asgn1.dir/src/other_handlers.cpp.o: ../src/other_handlers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/other_handlers.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/other_handlers.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/other_handlers.cpp.o -c /home/souvban/OpenGL-Games/jet_fighter/src/other_handlers.cpp
 
 CMakeFiles/graphics_asgn1.dir/src/other_handlers.cpp.i: cmake_force
@@ -323,7 +371,7 @@ CMakeFiles/graphics_asgn1.dir/src/other_handlers.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/graphics_asgn1.dir/src/parachute.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
 CMakeFiles/graphics_asgn1.dir/src/parachute.cpp.o: ../src/parachute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/parachute.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/parachute.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/parachute.cpp.o -c /home/souvban/OpenGL-Games/jet_fighter/src/parachute.cpp
 
 CMakeFiles/graphics_asgn1.dir/src/parachute.cpp.i: cmake_force
@@ -347,7 +395,7 @@ CMakeFiles/graphics_asgn1.dir/src/parachute.cpp.o.provides.build: CMakeFiles/gra
 
 CMakeFiles/graphics_asgn1.dir/src/timer.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
 CMakeFiles/graphics_asgn1.dir/src/timer.cpp.o: ../src/timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/timer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/timer.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/timer.cpp.o -c /home/souvban/OpenGL-Games/jet_fighter/src/timer.cpp
 
 CMakeFiles/graphics_asgn1.dir/src/timer.cpp.i: cmake_force
@@ -371,7 +419,7 @@ CMakeFiles/graphics_asgn1.dir/src/timer.cpp.o.provides.build: CMakeFiles/graphic
 
 CMakeFiles/graphics_asgn1.dir/src/land.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
 CMakeFiles/graphics_asgn1.dir/src/land.cpp.o: ../src/land.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/land.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/land.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/land.cpp.o -c /home/souvban/OpenGL-Games/jet_fighter/src/land.cpp
 
 CMakeFiles/graphics_asgn1.dir/src/land.cpp.i: cmake_force
@@ -395,7 +443,7 @@ CMakeFiles/graphics_asgn1.dir/src/land.cpp.o.provides.build: CMakeFiles/graphics
 
 CMakeFiles/graphics_asgn1.dir/src/cannon.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
 CMakeFiles/graphics_asgn1.dir/src/cannon.cpp.o: ../src/cannon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/cannon.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/cannon.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/cannon.cpp.o -c /home/souvban/OpenGL-Games/jet_fighter/src/cannon.cpp
 
 CMakeFiles/graphics_asgn1.dir/src/cannon.cpp.i: cmake_force
@@ -419,7 +467,7 @@ CMakeFiles/graphics_asgn1.dir/src/cannon.cpp.o.provides.build: CMakeFiles/graphi
 
 CMakeFiles/graphics_asgn1.dir/src/missile.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
 CMakeFiles/graphics_asgn1.dir/src/missile.cpp.o: ../src/missile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/missile.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/missile.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/missile.cpp.o -c /home/souvban/OpenGL-Games/jet_fighter/src/missile.cpp
 
 CMakeFiles/graphics_asgn1.dir/src/missile.cpp.i: cmake_force
@@ -443,7 +491,7 @@ CMakeFiles/graphics_asgn1.dir/src/missile.cpp.o.provides.build: CMakeFiles/graph
 
 CMakeFiles/graphics_asgn1.dir/src/color.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
 CMakeFiles/graphics_asgn1.dir/src/color.cpp.o: ../src/color.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/color.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/color.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/color.cpp.o -c /home/souvban/OpenGL-Games/jet_fighter/src/color.cpp
 
 CMakeFiles/graphics_asgn1.dir/src/color.cpp.i: cmake_force
@@ -465,15 +513,41 @@ CMakeFiles/graphics_asgn1.dir/src/color.cpp.o.provides: CMakeFiles/graphics_asgn
 CMakeFiles/graphics_asgn1.dir/src/color.cpp.o.provides.build: CMakeFiles/graphics_asgn1.dir/src/color.cpp.o
 
 
+CMakeFiles/graphics_asgn1.dir/src/compass.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
+CMakeFiles/graphics_asgn1.dir/src/compass.cpp.o: ../src/compass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/compass.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/compass.cpp.o -c /home/souvban/OpenGL-Games/jet_fighter/src/compass.cpp
+
+CMakeFiles/graphics_asgn1.dir/src/compass.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics_asgn1.dir/src/compass.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/souvban/OpenGL-Games/jet_fighter/src/compass.cpp > CMakeFiles/graphics_asgn1.dir/src/compass.cpp.i
+
+CMakeFiles/graphics_asgn1.dir/src/compass.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics_asgn1.dir/src/compass.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/souvban/OpenGL-Games/jet_fighter/src/compass.cpp -o CMakeFiles/graphics_asgn1.dir/src/compass.cpp.s
+
+CMakeFiles/graphics_asgn1.dir/src/compass.cpp.o.requires:
+
+.PHONY : CMakeFiles/graphics_asgn1.dir/src/compass.cpp.o.requires
+
+CMakeFiles/graphics_asgn1.dir/src/compass.cpp.o.provides: CMakeFiles/graphics_asgn1.dir/src/compass.cpp.o.requires
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/compass.cpp.o.provides.build
+.PHONY : CMakeFiles/graphics_asgn1.dir/src/compass.cpp.o.provides
+
+CMakeFiles/graphics_asgn1.dir/src/compass.cpp.o.provides.build: CMakeFiles/graphics_asgn1.dir/src/compass.cpp.o
+
+
 # Object files for target graphics_asgn1
 graphics_asgn1_OBJECTS = \
 "CMakeFiles/graphics_asgn1.dir/src/fighter.cpp.o" \
 "CMakeFiles/graphics_asgn1.dir/src/objloader.cpp.o" \
+"CMakeFiles/graphics_asgn1.dir/src/fire.cpp.o" \
 "CMakeFiles/graphics_asgn1.dir/src/bomb.cpp.o" \
 "CMakeFiles/graphics_asgn1.dir/src/volcano.cpp.o" \
 "CMakeFiles/graphics_asgn1.dir/src/input.cpp.o" \
 "CMakeFiles/graphics_asgn1.dir/src/ring.cpp.o" \
 "CMakeFiles/graphics_asgn1.dir/src/main.cpp.o" \
+"CMakeFiles/graphics_asgn1.dir/src/sev_seg.cpp.o" \
 "CMakeFiles/graphics_asgn1.dir/src/sea.cpp.o" \
 "CMakeFiles/graphics_asgn1.dir/src/fuel.cpp.o" \
 "CMakeFiles/graphics_asgn1.dir/src/nonedit.cpp.o" \
@@ -483,18 +557,21 @@ graphics_asgn1_OBJECTS = \
 "CMakeFiles/graphics_asgn1.dir/src/land.cpp.o" \
 "CMakeFiles/graphics_asgn1.dir/src/cannon.cpp.o" \
 "CMakeFiles/graphics_asgn1.dir/src/missile.cpp.o" \
-"CMakeFiles/graphics_asgn1.dir/src/color.cpp.o"
+"CMakeFiles/graphics_asgn1.dir/src/color.cpp.o" \
+"CMakeFiles/graphics_asgn1.dir/src/compass.cpp.o"
 
 # External object files for target graphics_asgn1
 graphics_asgn1_EXTERNAL_OBJECTS =
 
 graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/fighter.cpp.o
 graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/objloader.cpp.o
+graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/fire.cpp.o
 graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/bomb.cpp.o
 graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/volcano.cpp.o
 graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/input.cpp.o
 graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/ring.cpp.o
 graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/main.cpp.o
+graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/sev_seg.cpp.o
 graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/sea.cpp.o
 graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/fuel.cpp.o
 graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/nonedit.cpp.o
@@ -505,9 +582,10 @@ graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/land.cpp.o
 graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/cannon.cpp.o
 graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/missile.cpp.o
 graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/color.cpp.o
+graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/compass.cpp.o
 graphics_asgn1: CMakeFiles/graphics_asgn1.dir/build.make
 graphics_asgn1: CMakeFiles/graphics_asgn1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable graphics_asgn1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable graphics_asgn1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/graphics_asgn1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -517,11 +595,13 @@ CMakeFiles/graphics_asgn1.dir/build: graphics_asgn1
 
 CMakeFiles/graphics_asgn1.dir/requires: CMakeFiles/graphics_asgn1.dir/src/fighter.cpp.o.requires
 CMakeFiles/graphics_asgn1.dir/requires: CMakeFiles/graphics_asgn1.dir/src/objloader.cpp.o.requires
+CMakeFiles/graphics_asgn1.dir/requires: CMakeFiles/graphics_asgn1.dir/src/fire.cpp.o.requires
 CMakeFiles/graphics_asgn1.dir/requires: CMakeFiles/graphics_asgn1.dir/src/bomb.cpp.o.requires
 CMakeFiles/graphics_asgn1.dir/requires: CMakeFiles/graphics_asgn1.dir/src/volcano.cpp.o.requires
 CMakeFiles/graphics_asgn1.dir/requires: CMakeFiles/graphics_asgn1.dir/src/input.cpp.o.requires
 CMakeFiles/graphics_asgn1.dir/requires: CMakeFiles/graphics_asgn1.dir/src/ring.cpp.o.requires
 CMakeFiles/graphics_asgn1.dir/requires: CMakeFiles/graphics_asgn1.dir/src/main.cpp.o.requires
+CMakeFiles/graphics_asgn1.dir/requires: CMakeFiles/graphics_asgn1.dir/src/sev_seg.cpp.o.requires
 CMakeFiles/graphics_asgn1.dir/requires: CMakeFiles/graphics_asgn1.dir/src/sea.cpp.o.requires
 CMakeFiles/graphics_asgn1.dir/requires: CMakeFiles/graphics_asgn1.dir/src/fuel.cpp.o.requires
 CMakeFiles/graphics_asgn1.dir/requires: CMakeFiles/graphics_asgn1.dir/src/nonedit.cpp.o.requires
@@ -532,6 +612,7 @@ CMakeFiles/graphics_asgn1.dir/requires: CMakeFiles/graphics_asgn1.dir/src/land.c
 CMakeFiles/graphics_asgn1.dir/requires: CMakeFiles/graphics_asgn1.dir/src/cannon.cpp.o.requires
 CMakeFiles/graphics_asgn1.dir/requires: CMakeFiles/graphics_asgn1.dir/src/missile.cpp.o.requires
 CMakeFiles/graphics_asgn1.dir/requires: CMakeFiles/graphics_asgn1.dir/src/color.cpp.o.requires
+CMakeFiles/graphics_asgn1.dir/requires: CMakeFiles/graphics_asgn1.dir/src/compass.cpp.o.requires
 
 .PHONY : CMakeFiles/graphics_asgn1.dir/requires
 

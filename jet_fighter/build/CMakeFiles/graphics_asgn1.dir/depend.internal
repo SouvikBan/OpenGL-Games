@@ -3,6 +3,8 @@
 
 CMakeFiles/graphics_asgn1.dir/src/bomb.cpp.o
  /home/souvban/OpenGL-Games/jet_fighter/src/bomb.cpp
+ /home/souvban/OpenGL-Games/jet_fighter/src/bomb.h
+ /home/souvban/OpenGL-Games/jet_fighter/src/main.h
 CMakeFiles/graphics_asgn1.dir/src/cannon.cpp.o
  /home/souvban/OpenGL-Games/jet_fighter/src/cannon.cpp
  /home/souvban/OpenGL-Games/jet_fighter/src/cannon.h
@@ -10,9 +12,17 @@ CMakeFiles/graphics_asgn1.dir/src/cannon.cpp.o
 CMakeFiles/graphics_asgn1.dir/src/color.cpp.o
  /home/souvban/OpenGL-Games/jet_fighter/src/color.cpp
  /home/souvban/OpenGL-Games/jet_fighter/src/main.h
+CMakeFiles/graphics_asgn1.dir/src/compass.cpp.o
+ /home/souvban/OpenGL-Games/jet_fighter/src/compass.cpp
+ /home/souvban/OpenGL-Games/jet_fighter/src/compass.h
+ /home/souvban/OpenGL-Games/jet_fighter/src/main.h
 CMakeFiles/graphics_asgn1.dir/src/fighter.cpp.o
  /home/souvban/OpenGL-Games/jet_fighter/src/fighter.cpp
  /home/souvban/OpenGL-Games/jet_fighter/src/fighter.h
+ /home/souvban/OpenGL-Games/jet_fighter/src/main.h
+CMakeFiles/graphics_asgn1.dir/src/fire.cpp.o
+ /home/souvban/OpenGL-Games/jet_fighter/src/fire.cpp
+ /home/souvban/OpenGL-Games/jet_fighter/src/fire.h
  /home/souvban/OpenGL-Games/jet_fighter/src/main.h
 CMakeFiles/graphics_asgn1.dir/src/fuel.cpp.o
  /home/souvban/OpenGL-Games/jet_fighter/src/fuel.cpp
@@ -28,6 +38,7 @@ CMakeFiles/graphics_asgn1.dir/src/land.cpp.o
 CMakeFiles/graphics_asgn1.dir/src/main.cpp.o
  /home/souvban/OpenGL-Games/jet_fighter/src/bomb.h
  /home/souvban/OpenGL-Games/jet_fighter/src/cannon.h
+ /home/souvban/OpenGL-Games/jet_fighter/src/compass.h
  /home/souvban/OpenGL-Games/jet_fighter/src/fighter.h
  /home/souvban/OpenGL-Games/jet_fighter/src/fire.h
  /home/souvban/OpenGL-Games/jet_fighter/src/fuel.h
@@ -38,6 +49,7 @@ CMakeFiles/graphics_asgn1.dir/src/main.cpp.o
  /home/souvban/OpenGL-Games/jet_fighter/src/parachute.h
  /home/souvban/OpenGL-Games/jet_fighter/src/ring.h
  /home/souvban/OpenGL-Games/jet_fighter/src/sea.h
+ /home/souvban/OpenGL-Games/jet_fighter/src/sev_seg.h
  /home/souvban/OpenGL-Games/jet_fighter/src/timer.h
  /home/souvban/OpenGL-Games/jet_fighter/src/volcano.h
 CMakeFiles/graphics_asgn1.dir/src/missile.cpp.o
@@ -65,6 +77,10 @@ CMakeFiles/graphics_asgn1.dir/src/sea.cpp.o
  /home/souvban/OpenGL-Games/jet_fighter/src/main.h
  /home/souvban/OpenGL-Games/jet_fighter/src/sea.cpp
  /home/souvban/OpenGL-Games/jet_fighter/src/sea.h
+CMakeFiles/graphics_asgn1.dir/src/sev_seg.cpp.o
+ /home/souvban/OpenGL-Games/jet_fighter/src/main.h
+ /home/souvban/OpenGL-Games/jet_fighter/src/sev_seg.cpp
+ /home/souvban/OpenGL-Games/jet_fighter/src/sev_seg.h
 CMakeFiles/graphics_asgn1.dir/src/timer.cpp.o
  /home/souvban/OpenGL-Games/jet_fighter/src/timer.cpp
  /home/souvban/OpenGL-Games/jet_fighter/src/timer.h

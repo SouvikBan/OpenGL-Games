@@ -1,20 +1,19 @@
 #include "main.h"
 
-#ifndef FIGHTER_H
-#define FIGHTER_H
+#ifndef FIRE_H
+#define FIRE_H
 
 
-class Fighter {
+class Fire {
 public:
-    Fighter() {}
-    Fighter(float x, float y, float z);
+    Fire() {}
+    Fire(float x, float y, float z);
     glm::vec3 position;
-    float rotation,pitch_angle,roll_angle,yaw_angle;
+    float rotation,pitch_angle,roll_angle,yaw_angle,x_vec,y_vec,z_vec;
     std::vector< glm::vec3 > vertices;
     std::vector< glm::vec2 > uvs;
     std::vector< glm::vec3 > normals;
-    GLuint vertexbuffer, uvbuffer;
-    int life, fuel;
+    GLuint vertexbuffer, uvbuffer,colourbuffer;
     void draw(glm::mat4 VP);
     void set_position(float x, float y, float z);
     void tick();
@@ -24,4 +23,4 @@ private:
     VAO *object;
 };
 
-#endif // FIGHTER_H
+#endif // FIRE_H

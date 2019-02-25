@@ -7,7 +7,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/souvban/OpenGL-Games/jet_fighter/src/bomb.cpp" "/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles/graphics_asgn1.dir/src/bomb.cpp.o"
   "/home/souvban/OpenGL-Games/jet_fighter/src/cannon.cpp" "/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles/graphics_asgn1.dir/src/cannon.cpp.o"
   "/home/souvban/OpenGL-Games/jet_fighter/src/color.cpp" "/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles/graphics_asgn1.dir/src/color.cpp.o"
+  "/home/souvban/OpenGL-Games/jet_fighter/src/compass.cpp" "/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles/graphics_asgn1.dir/src/compass.cpp.o"
   "/home/souvban/OpenGL-Games/jet_fighter/src/fighter.cpp" "/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles/graphics_asgn1.dir/src/fighter.cpp.o"
+  "/home/souvban/OpenGL-Games/jet_fighter/src/fire.cpp" "/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles/graphics_asgn1.dir/src/fire.cpp.o"
   "/home/souvban/OpenGL-Games/jet_fighter/src/fuel.cpp" "/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles/graphics_asgn1.dir/src/fuel.cpp.o"
   "/home/souvban/OpenGL-Games/jet_fighter/src/input.cpp" "/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles/graphics_asgn1.dir/src/input.cpp.o"
   "/home/souvban/OpenGL-Games/jet_fighter/src/land.cpp" "/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles/graphics_asgn1.dir/src/land.cpp.o"
@@ -19,6 +21,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/souvban/OpenGL-Games/jet_fighter/src/parachute.cpp" "/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles/graphics_asgn1.dir/src/parachute.cpp.o"
   "/home/souvban/OpenGL-Games/jet_fighter/src/ring.cpp" "/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles/graphics_asgn1.dir/src/ring.cpp.o"
   "/home/souvban/OpenGL-Games/jet_fighter/src/sea.cpp" "/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles/graphics_asgn1.dir/src/sea.cpp.o"
+  "/home/souvban/OpenGL-Games/jet_fighter/src/sev_seg.cpp" "/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles/graphics_asgn1.dir/src/sev_seg.cpp.o"
   "/home/souvban/OpenGL-Games/jet_fighter/src/timer.cpp" "/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles/graphics_asgn1.dir/src/timer.cpp.o"
   "/home/souvban/OpenGL-Games/jet_fighter/src/volcano.cpp" "/home/souvban/OpenGL-Games/jet_fighter/build/CMakeFiles/graphics_asgn1.dir/src/volcano.cpp.o"
   )

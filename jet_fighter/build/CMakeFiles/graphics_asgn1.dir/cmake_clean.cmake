@@ -1,11 +1,13 @@
 file(REMOVE_RECURSE
   "CMakeFiles/graphics_asgn1.dir/src/fighter.cpp.o"
   "CMakeFiles/graphics_asgn1.dir/src/objloader.cpp.o"
+  "CMakeFiles/graphics_asgn1.dir/src/fire.cpp.o"
   "CMakeFiles/graphics_asgn1.dir/src/bomb.cpp.o"
   "CMakeFiles/graphics_asgn1.dir/src/volcano.cpp.o"
   "CMakeFiles/graphics_asgn1.dir/src/input.cpp.o"
   "CMakeFiles/graphics_asgn1.dir/src/ring.cpp.o"
   "CMakeFiles/graphics_asgn1.dir/src/main.cpp.o"
+  "CMakeFiles/graphics_asgn1.dir/src/sev_seg.cpp.o"
   "CMakeFiles/graphics_asgn1.dir/src/sea.cpp.o"
   "CMakeFiles/graphics_asgn1.dir/src/fuel.cpp.o"
   "CMakeFiles/graphics_asgn1.dir/src/nonedit.cpp.o"
@@ -16,6 +18,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/graphics_asgn1.dir/src/cannon.cpp.o"
   "CMakeFiles/graphics_asgn1.dir/src/missile.cpp.o"
   "CMakeFiles/graphics_asgn1.dir/src/color.cpp.o"
+  "CMakeFiles/graphics_asgn1.dir/src/compass.cpp.o"
   "graphics_asgn1.pdb"
   "graphics_asgn1"
 )

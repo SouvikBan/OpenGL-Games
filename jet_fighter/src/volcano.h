@@ -1,20 +1,19 @@
 #include "main.h"
 
-#ifndef FIGHTER_H
-#define FIGHTER_H
+#ifndef VOLCANO_H
+#define VOLACNO_H
 
 
-class Fighter {
+class Volcano {
 public:
-    Fighter() {}
-    Fighter(float x, float y, float z);
+    Volcano() {}
+    Volcano(float x, float y, float z);
     glm::vec3 position;
     float rotation,pitch_angle,roll_angle,yaw_angle;
     std::vector< glm::vec3 > vertices;
     std::vector< glm::vec2 > uvs;
     std::vector< glm::vec3 > normals;
-    GLuint vertexbuffer, uvbuffer;
-    int life, fuel;
+    GLuint vertexbuffer, uvbuffer,colourbuffer;
     void draw(glm::mat4 VP);
     void set_position(float x, float y, float z);
     void tick();
@@ -24,4 +23,4 @@ private:
     VAO *object;
 };
 
-#endif // FIGHTER_H
+#endif // VOLCANO_H

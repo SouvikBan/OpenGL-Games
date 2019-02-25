@@ -1,13 +1,11 @@
-#include "fighter.h"
+#include "missile.h"
 #include "main.h"
 
-Fighter::Fighter(float x, float y, float z) {
+Missile::Missile(float x, float y, float z) {
     this->position = glm::vec3(x, y, z);
     this->rotation = 180;
-    this->life = 100;
-    this->fuel = 500;
-    this->speed = 0;
-    bool res = loadOBJ("../src/plane.obj",this->vertices, this->uvs, this->normals);
+    this->speed = 20;
+    bool res = loadOBJ("../src/missile.obj",this->vertices, this->uvs, this->normals);
    
     // GLuint vertexbuffer;
 	glGenBuffers(1, &this->vertexbuffer);
@@ -21,7 +19,7 @@ Fighter::Fighter(float x, float y, float z) {
 
 }
 
-void Fighter::draw(glm::mat4 VP) {
+void Missile::draw(glm::mat4 VP) {
     Matrices.model = glm::mat4(1.0f);
     glm::mat4 translate = glm::translate (this->position);  
     glm::mat4 rotate    = glm::rotate((float) (this->rotation * M_PI / 180.0f), glm::vec3(0, 1, 0));
@@ -67,18 +65,18 @@ void Fighter::draw(glm::mat4 VP) {
 
 }
 
-void Fighter::set_position(float x, float y, float z) {
+void Missile::set_position(float x, float y, float z) {
     this->position = glm::vec3(x, y, z);
 }
 
-void Fighter::tick() {
+void Missile::tick() {
     this->position.z += this->speed/120.0f*cos(this->yaw_angle*M_PI / 180.0f);
     this->position.x += this->speed/120.0f* sin(this->yaw_angle * M_PI / 180.0f);
     this->position.y += this->speed/120.0f*sin(this->pitch_angle * M_PI / 180.0f);
 }
 
-bounding_box_t Fighter::bounding_box() {
-    float x = this->position.x, y = this->position.y, z = this->position.z;
-    bounding_box_t bbox = { x, y, z, 0.5};
+bounding_box_t Missile::bounding_box() {
+    float x = this->position.x, y = this->position.y, z=this->position.z;
+    bounding_box_t bbox = { x, y , z, 1  };
     return bbox;
 }

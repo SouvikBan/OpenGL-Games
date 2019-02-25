@@ -204,6 +204,33 @@ src/color.cpp.s:
 	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/color.cpp.s
 .PHONY : src/color.cpp.s
 
+src/compass.o: src/compass.cpp.o
+
+.PHONY : src/compass.o
+
+# target to build an object file
+src/compass.cpp.o:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/compass.cpp.o
+.PHONY : src/compass.cpp.o
+
+src/compass.i: src/compass.cpp.i
+
+.PHONY : src/compass.i
+
+# target to preprocess a source file
+src/compass.cpp.i:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/compass.cpp.i
+.PHONY : src/compass.cpp.i
+
+src/compass.s: src/compass.cpp.s
+
+.PHONY : src/compass.s
+
+# target to generate assembly for a file
+src/compass.cpp.s:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/compass.cpp.s
+.PHONY : src/compass.cpp.s
+
 src/fighter.o: src/fighter.cpp.o
 
 .PHONY : src/fighter.o
@@ -230,6 +257,33 @@ src/fighter.s: src/fighter.cpp.s
 src/fighter.cpp.s:
 	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/fighter.cpp.s
 .PHONY : src/fighter.cpp.s
+
+src/fire.o: src/fire.cpp.o
+
+.PHONY : src/fire.o
+
+# target to build an object file
+src/fire.cpp.o:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/fire.cpp.o
+.PHONY : src/fire.cpp.o
+
+src/fire.i: src/fire.cpp.i
+
+.PHONY : src/fire.i
+
+# target to preprocess a source file
+src/fire.cpp.i:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/fire.cpp.i
+.PHONY : src/fire.cpp.i
+
+src/fire.s: src/fire.cpp.s
+
+.PHONY : src/fire.s
+
+# target to generate assembly for a file
+src/fire.cpp.s:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/fire.cpp.s
+.PHONY : src/fire.cpp.s
 
 src/fuel.o: src/fuel.cpp.o
 
@@ -528,6 +582,33 @@ src/sea.cpp.s:
 	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/sea.cpp.s
 .PHONY : src/sea.cpp.s
 
+src/sev_seg.o: src/sev_seg.cpp.o
+
+.PHONY : src/sev_seg.o
+
+# target to build an object file
+src/sev_seg.cpp.o:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/sev_seg.cpp.o
+.PHONY : src/sev_seg.cpp.o
+
+src/sev_seg.i: src/sev_seg.cpp.i
+
+.PHONY : src/sev_seg.i
+
+# target to preprocess a source file
+src/sev_seg.cpp.i:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/sev_seg.cpp.i
+.PHONY : src/sev_seg.cpp.i
+
+src/sev_seg.s: src/sev_seg.cpp.s
+
+.PHONY : src/sev_seg.s
+
+# target to generate assembly for a file
+src/sev_seg.cpp.s:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/sev_seg.cpp.s
+.PHONY : src/sev_seg.cpp.s
+
 src/timer.o: src/timer.cpp.o
 
 .PHONY : src/timer.o
@@ -600,9 +681,15 @@ help:
 	@echo "... src/color.o"
 	@echo "... src/color.i"
 	@echo "... src/color.s"
+	@echo "... src/compass.o"
+	@echo "... src/compass.i"
+	@echo "... src/compass.s"
 	@echo "... src/fighter.o"
 	@echo "... src/fighter.i"
 	@echo "... src/fighter.s"
+	@echo "... src/fire.o"
+	@echo "... src/fire.i"
+	@echo "... src/fire.s"
 	@echo "... src/fuel.o"
 	@echo "... src/fuel.i"
 	@echo "... src/fuel.s"
@@ -636,6 +723,9 @@ help:
 	@echo "... src/sea.o"
 	@echo "... src/sea.i"
 	@echo "... src/sea.s"
+	@echo "... src/sev_seg.o"
+	@echo "... src/sev_seg.i"
+	@echo "... src/sev_seg.s"
 	@echo "... src/timer.o"
 	@echo "... src/timer.i"
 	@echo "... src/timer.s"

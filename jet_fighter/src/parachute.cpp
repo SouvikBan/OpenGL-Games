@@ -1,34 +1,39 @@
-#include "fighter.h"
+#include "parachute.h"
 #include "main.h"
 
-Fighter::Fighter(float x, float y, float z) {
+Parachute::Parachute(float x, float y, float z) {
     this->position = glm::vec3(x, y, z);
     this->rotation = 180;
-    this->life = 100;
-    this->fuel = 500;
     this->speed = 0;
-    bool res = loadOBJ("../src/plane.obj",this->vertices, this->uvs, this->normals);
-   
+    bool res = loadOBJ("../src/parachute.obj",this->vertices, this->uvs, this->normals);
+    GLfloat colour_buffer_data[this->vertices.size() * 3];
+
+    for(int i=0; i<this->vertices.size();i++)
+    {
+        colour_buffer_data[3*i]=107.0f/256.0f;
+        colour_buffer_data[3*i+1]=142.0f/256.0f;
+        colour_buffer_data[3*i+2]=35.0f/256.0f;
+    }
     // GLuint vertexbuffer;
 	glGenBuffers(1, &this->vertexbuffer);
 	glBindBuffer(GL_ARRAY_BUFFER, this->vertexbuffer);
 	glBufferData(GL_ARRAY_BUFFER, this->vertices.size() * sizeof(glm::vec3), &this->vertices[0], GL_STATIC_DRAW);
 
 	// GLuint uvbuffer;
-	glGenBuffers(1, &this->uvbuffer);
-	glBindBuffer(GL_ARRAY_BUFFER, this->uvbuffer);
-    glBufferData(GL_ARRAY_BUFFER, this->uvs.size() * sizeof(glm::vec2), &this->uvs[0], GL_STATIC_DRAW);
+	// glGenBuffers(1, &this->uvbuffer);
+	// glBindBuffer(GL_ARRAY_BUFFER, this->uvbuffer);
+    // glBufferData(GL_ARRAY_BUFFER, this->uvs.size() * sizeof(glm::vec2), &this->uvs[0], GL_STATIC_DRAW);
 
+    glGenBuffers(1, &this->colourbuffer);
+	glBindBuffer(GL_ARRAY_BUFFER, this->colourbuffer);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(colour_buffer_data),colour_buffer_data , GL_STATIC_DRAW);
 }
 
-void Fighter::draw(glm::mat4 VP) {
+void Parachute::draw(glm::mat4 VP) {
     Matrices.model = glm::mat4(1.0f);
     glm::mat4 translate = glm::translate (this->position);  
     glm::mat4 rotate    = glm::rotate((float) (this->rotation * M_PI / 180.0f), glm::vec3(0, 1, 0));
-    glm::mat4 yaw     = glm::rotate((float) (this->yaw_angle * M_PI / 180.0f), glm::vec3(0, 1, 0));
-    glm::mat4 pitch   = glm::rotate((float) (this->pitch_angle * M_PI / 180.0f), glm::vec3(1, 0, 0));
-    glm::mat4 roll  =  glm::rotate((float) (this->roll_angle * M_PI / 180.0f), glm::vec3(0, 0, 1));
-    Matrices.model *= (translate * rotate * yaw * pitch * roll);
+    Matrices.model *= (translate * rotate );
     glm::mat4 MVP = VP * Matrices.model;
     glUniformMatrix4fv(Matrices.MatrixID, 1, GL_FALSE, &MVP[0][0]);
     GLuint vao;
@@ -49,10 +54,10 @@ void Fighter::draw(glm::mat4 VP) {
 
     // 2nd attribute buffer : UVs
     glEnableVertexAttribArray(1);
-    glBindBuffer(GL_ARRAY_BUFFER, this->uvbuffer);
+    glBindBuffer(GL_ARRAY_BUFFER, this->colourbuffer);
     glVertexAttribPointer(
         1,                                // attribute
-        2,                                // size
+        3,                                // size
         GL_FLOAT,                         // type
         GL_FALSE,                         // normalized?
         0,                                // stride
@@ -67,18 +72,18 @@ void Fighter::draw(glm::mat4 VP) {
 
 }
 
-void Fighter::set_position(float x, float y, float z) {
+void Parachute::set_position(float x, float y, float z) {
     this->position = glm::vec3(x, y, z);
 }
 
-void Fighter::tick() {
-    this->position.z += this->speed/120.0f*cos(this->yaw_angle*M_PI / 180.0f);
-    this->position.x += this->speed/120.0f* sin(this->yaw_angle * M_PI / 180.0f);
-    this->position.y += this->speed/120.0f*sin(this->pitch_angle * M_PI / 180.0f);
+void Parachute::tick() {
+    //this->rotation += speed;
+    this->position.z += this->speed/120.0f;
+    // this->position.y -= speed;
 }
 
-bounding_box_t Fighter::bounding_box() {
-    float x = this->position.x, y = this->position.y, z = this->position.z;
-    bounding_box_t bbox = { x, y, z, 0.5};
+bounding_box_t Parachute::bounding_box() {
+    float x = this->position.x, y = this->position.y, z=this->position.z;
+    bounding_box_t bbox = { x, y , z, 2  };
     return bbox;
 }

@@ -52,10 +52,10 @@ void keyboard(GLFWwindow *window, int key, int scancode, int action, int mods) {
 /* Executed for character input (like in text boxes) */
 void keyboardChar(GLFWwindow *window, unsigned int key) {
     switch (key) {
-    case 'Q':
-    case 'q':
-        quit(window);
-        break;
+    // case 'Q':
+    // case 'q':
+    //     quit(window);
+    //     break;
     default:
         break;
     }
@@ -66,22 +66,31 @@ void mouseButton(GLFWwindow *window, int button, int action, int mods) {
     switch (button) {
     case GLFW_MOUSE_BUTTON_LEFT:
         if (action == GLFW_PRESS) {
-            // Do something
+            bomb_generate(-1);
             return;
         } else if (action == GLFW_RELEASE) {
             // Do something
         }
         break;
-    // case GLFW_MOUSE_BUTTON_RIGHT:
-    // if (action == GLFW_RELEASE) {
-    // rectangle_rot_dir *= -1;
-    // }
-    // break;
+    case GLFW_MOUSE_BUTTON_RIGHT:
+        if (action == GLFW_PRESS) {
+            bomb_generate(1);
+            return;    
+    }
+    break;
     default:
         break;
     }
 }
 
 void scroll_callback(GLFWwindow *window, double xoffset, double yoffset) {
-    // Do something
+    
 }
+
+void mouseover_callback(GLFWwindow *window, double xoffset, double yoffset) {
+    float theta,phi;
+    theta = xoffset * ((2* M_PI)/1000);
+    phi  = yoffset * ((2 * M_PI)/1000);
+    printf("x: %f, y: %f", xoffset, yoffset);
+}
+

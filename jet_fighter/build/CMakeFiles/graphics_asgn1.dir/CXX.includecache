@@ -7,8 +7,14 @@
 #IncludeRegexTransform: 
 
 /home/souvban/OpenGL-Games/jet_fighter/src/bomb.cpp
+bomb.h
+/home/souvban/OpenGL-Games/jet_fighter/src/bomb.h
+main.h
+/home/souvban/OpenGL-Games/jet_fighter/src/main.h
 
 /home/souvban/OpenGL-Games/jet_fighter/src/bomb.h
+main.h
+/home/souvban/OpenGL-Games/jet_fighter/src/main.h
 
 /home/souvban/OpenGL-Games/jet_fighter/src/cannon.cpp
 cannon.h
@@ -24,6 +30,16 @@ main.h
 main.h
 /home/souvban/OpenGL-Games/jet_fighter/src/main.h
 
+/home/souvban/OpenGL-Games/jet_fighter/src/compass.cpp
+compass.h
+/home/souvban/OpenGL-Games/jet_fighter/src/compass.h
+main.h
+/home/souvban/OpenGL-Games/jet_fighter/src/main.h
+
+/home/souvban/OpenGL-Games/jet_fighter/src/compass.h
+main.h
+/home/souvban/OpenGL-Games/jet_fighter/src/main.h
+
 /home/souvban/OpenGL-Games/jet_fighter/src/fighter.cpp
 fighter.h
 /home/souvban/OpenGL-Games/jet_fighter/src/fighter.h
@@ -33,6 +49,14 @@ main.h
 /home/souvban/OpenGL-Games/jet_fighter/src/fighter.h
 main.h
 /home/souvban/OpenGL-Games/jet_fighter/src/main.h
+
+/home/souvban/OpenGL-Games/jet_fighter/src/fire.cpp
+fire.h
+/home/souvban/OpenGL-Games/jet_fighter/src/fire.h
+main.h
+/home/souvban/OpenGL-Games/jet_fighter/src/main.h
+cmath
+-
 
 /home/souvban/OpenGL-Games/jet_fighter/src/fire.h
 main.h
@@ -109,6 +133,10 @@ bomb.h
 /home/souvban/OpenGL-Games/jet_fighter/src/bomb.h
 parachute.h
 /home/souvban/OpenGL-Games/jet_fighter/src/parachute.h
+sev_seg.h
+/home/souvban/OpenGL-Games/jet_fighter/src/sev_seg.h
+compass.h
+/home/souvban/OpenGL-Games/jet_fighter/src/compass.h
 
 /home/souvban/OpenGL-Games/jet_fighter/src/main.h
 iostream
@@ -217,6 +245,16 @@ main.h
 /home/souvban/OpenGL-Games/jet_fighter/src/main.h
 
 /home/souvban/OpenGL-Games/jet_fighter/src/sea.h
+main.h
+/home/souvban/OpenGL-Games/jet_fighter/src/main.h
+
+/home/souvban/OpenGL-Games/jet_fighter/src/sev_seg.cpp
+sev_seg.h
+/home/souvban/OpenGL-Games/jet_fighter/src/sev_seg.h
+main.h
+/home/souvban/OpenGL-Games/jet_fighter/src/main.h
+
+/home/souvban/OpenGL-Games/jet_fighter/src/sev_seg.h
 main.h
 /home/souvban/OpenGL-Games/jet_fighter/src/main.h
 
